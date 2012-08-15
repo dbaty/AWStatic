@@ -31,13 +31,13 @@ operating systems and browsers.
 Screenshots
 ===========
 
-.. image:: docs/overview.png
+.. image:: https://raw.github.com/dbaty/AWStatic/master/docs/overview.png
    :width: 518
    :height: 317
    :align: center
    :alt: The overview
 
-.. image:: docs/top10.png
+.. image:: https://raw.github.com/dbaty/AWStatic/master/docs/top10.png
    :width: 361
    :height: 235
    :align: center
@@ -171,8 +171,4 @@ License
 =======
 
 AWStatic is written by Damien Baty and is licensed under the 3-clause
-BSD license, a copy of which is included in the source and reproduced
-below:
-
-.. include:: LICENSE.txt
-   :literal:
+BSD license, a copy of which is included in the source.
