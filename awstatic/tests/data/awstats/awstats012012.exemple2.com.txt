@@ -1,0 +1,287 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201201 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.exemple.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2680                
+POS_VISITOR 3413                
+POS_DAY 3896                
+POS_DOMAIN 4093                
+POS_LOGIN 4380                
+POS_ROBOT 4535                
+POS_WORMS 4916                
+POS_EMAILSENDER 5047                
+POS_EMAILRECEIVER 5190                
+POS_SESSION 5266                
+POS_SIDER 5422                
+POS_FILETYPES 6220                
+POS_DOWNLOADS 6351                
+POS_OS 6420                
+POS_BROWSER 6486                
+POS_SCREENSIZE 6631                
+POS_UNKNOWNREFERER 6705                
+POS_UNKNOWNREFERERBROWSER 6792                
+POS_ORIGIN 6874                
+POS_SEREFERRALS 7006                
+POS_PAGEREFS 7171                
+POS_SEARCHWORDS 7360                
+POS_KEYWORDS 7560                
+POS_MISC 2344                
+POS_ERRORS 7675                
+POS_CLUSTER 4236                
+POS_SIDER_404 7750                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120201013554 129 30471 4886531997209
+FirstTime 20120129081450
+LastTime 20120131111511
+LastUpdate 20120201181001 129 0 128 0 0
+TotalVisits 6                   
+TotalUnique 6                   
+MonthHostsKnown 6                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 2 25
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 1 2 25
+4 0 0 0 2 6 67689
+5 0 0 0 1 3 126251
+6 0 0 0 1 1 1540
+7 0 0 0 1 3 144762
+8 2 12 654661 1 4 0
+9 0 0 0 1 3 41850
+10 0 0 0 0 0 0
+11 14 38 1213892 0 2 0
+12 0 0 0 1 2 2048
+13 0 0 0 0 1 51
+14 0 0 0 0 0 0
+15 0 0 0 2 5 41516
+16 1 3 192572 0 2 0
+17 0 0 0 0 0 0
+18 2 12 654570 0 0 0
+19 0 0 0 1 3 45575
+20 1 1 3130 3 6 43670
+21 1 12 1628131 2 3 13575
+22 0 0 0 0 0 0
+23 0 0 0 1 2 249930
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+116.129.101.84.rev.sfr.net 14 38 1213892 20120131111511
+i04m-87-90-91-35.d4.club-internet.fr 2 12 654661 20120129081450
+41.96.97.161 2 10 587238 20120130182430
+aannecy-158-1-3-239.w90-42.abo.wanadoo.fr 1 11 650416 20120130211755
+static-208-80-194-37.as13448.com 1 1 3130 20120130203201
+brln-4d0ccd40.pool.mediaways.net 1 3 192572 20120129161330
+dhcp-077-250-044-087.chello.nl 0 1 977715 
+41.96.58.38 0 2 67332 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20120129 3 16 1824948 2
+20120130 4 24 1308116 3
+20120131 14 38 1213892 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+net 15 41 1406464
+fr 3 23 1305077
+ip 2 12 654570
+com 1 1 3130
+nl 0 1 977715
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+msnbot\-media 18 462669 20120130094004 6
+bot[\s_+:,\.\;\/\\-] 8 2123 20120130034125 4
+googlebot 6 293853 20120131065648 2
+baiduspider 4 3182 20120131131241 2
+mj12bot 3 13575 20120131213141 1
+yandex 3 3105 20120131150446 1
+sogou 1 0 20120129084539 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 5
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/recit/02-trieste-zagreb.html 3 13920 3 1
+/ 2 4670 2 2
+/recit/03-zagreb-banja-luka.html 2 8490 0 2
+/recit/08-dreznica-mostar-dubrovnik.html 1 3833 0 0
+/recit/07-sarajevo-konjic-dreznica.html 1 2957 1 0
+/recit/20-trieste-mestre-paris.html 1 1132 0 1
+/recit/15-cres.html 1 1062 0 0
+/recit/09-dubrovnik-trsteno.html 1 3157 0 0
+/recit/17-cres.html 1 1154 0 0
+/recit/11-trogir-marina-sibenik-zadar.html 1 2148 0 0
+/recit/19-cres-rijeka-trieste.html 1 1182 0 0
+/recit/16-cres.html 1 1112 0 0
+/recit/10-trsteno-brela-split-trogir.html 1 2759 0 0
+/recit/13-rijeka-cres.html 1 2002 0 0
+/recit/18-cres.html 1 1429 0 0
+/recit/12-zadar-rijeka.html 1 2054 0 0
+/recit/14-cres.html 1 1318 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+php 2 4670 0 0
+css 5 5460 0 0
+html 19 49709 0 0
+jpg 52 4287117 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 16 0 660
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 3
+macosx 15
+winxp 51
+win7 12
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+msie8.0 38
+firefox9.0.1 12
+firefox6.0.2 3
+firefox7.0.1 12
+msie7.0 1
+safari5.0.5 11
+safari5.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1 1
+From1 0 0
+From2 4 8
+From3 1 1
+From4 15 68
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 7
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://pypi.python.org/pypi/soho/0.7 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+zagreb 2
+ville+trieste 1
+gorges+de+la+neretva 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 7
+zagreb 2
+ville 1
+trieste 1
+la 1
+de 1
+gorges 1
+neretva 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404

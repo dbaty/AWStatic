@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>AWStatic</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <noscript>
+    You must enable JavaScript.
+  </noscript>
+
+    <ul class="header">
+      <li class="domain-selector dropdown invisible">
+        <a href="#" class="dropdown-toggle"
+           data-toggle="dropdown" data-target="site-menu"
+           title="select another site">
+          <span class="placeholder">$placeholder$</span>
+          <b class="caret"></b></a>
+        <ul id="site-menu" class="dropdown-menu">$placeholder$</ul>
+      </li>
+      <li class="period-selector dropdown invisible">
+        <a href="#" class="dropdown-toggle"
+           data-toggle="dropdown" data-target="period-menu"
+           title="select another period">
+          <span class="placeholder">$placeholder$</span>
+          <b class="caret"></b></a>
+        <ul id="period-menu" class="dropdown-menu">$placeholder$</ul>
+      </li>
+    </ul>
+
+  <div class="sidebar">
+    <ul class="nav">
+      <li id="nav-overview">
+        <a href="javascript: void(0)" onclick="ui.show_page('overview')">Overview</a></li>
+      <li id="nav-top10">
+        <a href="javascript: void(0)" onclick="ui.show_page('top10')">Top 10</a></li>
+      <li id="nav-downloads">
+        <a href="javascript: void(0)" onclick="ui.show_page('downloads')">Downloads</a></li>
+      <li id="nav-referrers">
+        <a href="javascript: void(0)" onclick="ui.show_page('referrers')">Referrers</a></li>
+      <li id="nav-keywords">
+        <a href="javascript: void(0)" onclick="ui.show_page('keywords')">Search keywords</a></li>
+      <li id="nav-phrases">
+        <a href="javascript: void(0)" onclick="ui.show_page('phrases')">Search phrases</a></li>
+      <li id="nav-browsers">
+        <a href="javascript: void(0)" onclick="ui.show_page('browsers')">Browsers/OS</a></li>
+    </ul>
+    <div class="last-update">
+      Last update: ${last_update}
+    </div>
+  </div>
+
+  <div class="content">
+    <div id="page-loading">
+      <img src="assets/img/loading.gif" width="32" height="32" alt="loading...">
+    </div>
+    <div id="page-overview" class="hidden">
+      <div id="overview-graph" class="graph"></div>
+      <table class="overview listing">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Hits</th>
+            <th>Pages</th>
+            <th>Visits</th>
+            <th>Unique visitors</th>
+            <th>Bandwidth</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="page-top10" class="hidden">
+      <table class="top10 listing">
+        <thead>
+          <tr>
+            <th>URL</th>
+            <th>Pages</th>
+            <th>Bandwidth</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="page-downloads" class="hidden">
+      <table class="downloads listing">
+        <thead>
+          <tr>
+            <th>URL</th>
+            <th>Hits</th>
+            <th>Bandwidth</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="page-referrers" class="hidden">
+      <table class="referrers listing">
+        <thead>
+          <tr>
+            <th>URL</th>
+            <th>Pages</th>
+            <th>Hits</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="page-keywords" class="hidden">
+      <table class="keywords listing">
+        <thead>
+          <tr>
+            <th>Word</th>
+            <th>Searches</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="page-phrases" class="hidden">
+      <table class="phrases listing">
+        <thead>
+          <tr>
+            <th>Phrases</th>
+            <th>Searches</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="page-browsers" class="hidden">
+      Browsers/OS: not available yet.
+    </div>
+  </div>
+
+  <script src="assets/js/libs/jquery-1.8.0.min.js"></script>
+  <script src="assets/js/libs/jquery.flot-0.7.min.js"></script>
+  <script src="assets/js/libs/handlebars-1.0.0.beta.6.min.js"></script>
+  <script src="assets/js/libs/bootstrap-dropdown.js"></script>
+  <script id="tmpl-period-menu" type="text/html">
+    {{#each periods}}
+      <li><a href="javascript: void(0)" onclick="ui.select_period('{{this.key}}')">{{this.label}}</a></li>
+    {{/each}}
+  </script>
+  <script id="tmpl-site-menu" type="text/html">
+    {{#each sites}}
+      <li><a href="javascript: void(0)" onclick="ui.select_site('{{this}}')">{{this}}</a></li>
+    {{/each}}
+  </script>
+  <script id="tmpl-overview-table" type="text/html">
+    {{#each table}}
+      <tr>
+        <td>{{this.label}}</td>
+        <td>{{this.hits}}</td>
+        <td>{{this.pages}}</td>
+        <td>{{this.visits}}</td>
+        <td>{{this.visitors}}</td>
+        <td>{{this.bandwidth}}</td>
+      </tr>
+    {{/each}}
+  </script>
+  <script id="tmpl-top10-table" type="text/html">
+    {{#each pages}}
+    <tr>
+      <td><a href="{{../base_url}}{{this.url}}">{{this.url}}</a></td>
+      <td>{{this.pages}}</td>
+      <td>{{../format_bandwidth this.bandwidth}}</td>
+    </tr>
+    {{/each}}
+  </script>
+  <script id="tmpl-downloads-table" type="text/html">
+    {{#each files}}
+    <tr>
+      <td><a href="{{../base_url}}{{this.url}}">{{this.url}}</a></td>
+      <td>{{this.hits}}</td>
+      <td>{{../format_bandwidth this.bandwidth}}</td>
+    </tr>
+    {{/each}}
+  </script>
+  <script id="tmpl-referrers-table" type="text/html">
+    {{#each referrers}}
+    <tr>
+      <td><a href="{{this.url}}">{{this.url}}</a></td>
+      <td>{{this.pages}}</td>
+      <td>{{this.hits}}</td>
+    </tr>
+    {{/each}}
+  </script>
+  <script id="tmpl-keywords-table" type="text/html">
+    {{#each keywords}}
+    <tr>
+      <td>{{this.keyword}}</td>
+      <td>{{this.searches}}</td>
+    </tr>
+    {{/each}}
+  </script>
+  <script id="tmpl-phrases-table" type="text/html">
+    {{#each phrases}}
+    <tr>
+      <td>{{this.phrase}}</td>
+      <td>{{this.searches}}</td>
+    </tr>
+    {{/each}}
+  </script>
+  <script src="assets/js/ui.js"></script>
+  <script>
+    $(document).ready(function () {
+      awstatic.init_ui();
+    });
+  </script>
+
+</body>
+</html>

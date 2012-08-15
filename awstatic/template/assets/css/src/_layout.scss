@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+    font-family: Gill Sans, Arial, sans-serif;
+    font-size: $base-font-size;
+}
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.header {
+    background-color: $layout-bg;
+    border-bottom: 1px solid $layout-borders;
+    padding: 1em 0 1em 1em;
+    height: 1.6em;
+}
+
+.header li {
+    display: inline;
+}
+
+.domain-selector, .period-selector {
+    font-weight: normal;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $link-color;
+    }
+}
+
+.domain-selector {
+    font-size: 1.6em;
+    padding-right: 1em;
+}
+
+.period-selector {
+    border-left: 1px solid #cccccc;
+    padding-left: 1.6em;
+}
+
+.sidebar {
+    clear: both;
+    float: left;
+    width: 200px;
+    background-color: $layout-bg;
+}
+
+.nav {
+    border-right: 1px solid $layout-borders;
+    list-style-type: none;
+    li {
+        font-size: 1.2em;
+    }
+    li.current {
+        background-color: white;
+
+        a:before {
+            height: 100%;
+            font-size: 0.5em;
+            vertical-align: middle;
+            content: '\25ba';
+            margin-right: 0.5em;
+        }
+    }
+    li.last {
+        border-bottom: 0;
+    }
+    a {
+        display: block;
+        padding: 1em;
+        border-bottom: 1px solid $layout-borders;
+        color: $link-color;
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: white;
+    }
+}
+
+.last-update {
+    font-size: 0.8em;
+    padding-top: 1em;
+    text-align: center;
+    background-color: white;
+}
+
+.content {
+    float: left;
+    margin: 1em;
+
+    a {
+        color: $link-color;
+    }
+}
+
+#page-loading {
+    z-index: 2;
+}
+
+table {
+    margin-bottom: 1em;
+}
+
+table.listing {
+    border-collapse: collapse;
+    tr.odd {
+        background-color: #EEEEEE;
+    }
+    th {
+        border-bottom: 0.1em solid black;
+        padding: 0.2em 1em;
+    }
+    td {
+        border-bottom: 0.1em inset #CCCCCC;
+        padding: 0.5em 1em;
+        margin: 0;
+    }
+    tfoot td {
+        border: 0;
+    }
+}
+
+.graph {
+    margin-bottom: 1em;
+}
+
+#overview-graph {
+    width: 800px;
+    height: 400px;
+}

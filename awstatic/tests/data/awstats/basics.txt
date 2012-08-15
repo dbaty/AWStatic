@@ -1,0 +1,23 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201201 will be lost/reset.
+# Last config file used to build this data file was /foo/bar.
+
+#
+# This is a fake and incomplete file to be used to test 'Parser.parse_file()'
+#
+
+
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+BEGIN_GENERAL 2
+TotalVisits 6                   
+TotalUnique 6                   
+END_GENERAL
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+8.8.8.8.rev.sfr.net 14 38 1213892 20120131111511
+i04m-8-8-8-8.d4.club-internet.fr 2 12 654661 20120129081450
+END_VISITOR

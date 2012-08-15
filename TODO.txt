@@ -1,0 +1,10 @@
+- currently, all functions of the "awstatic" JavaScript "module" are
+  publicy available. This is because tests need access to them.
+  However, only 'init_ui()' should be made public: how could I make
+  the other functions private and still test them?
+
+- feature: add "browsers/OS" report
+
+- feature: add "all-time" key for all reports
+
+- test with recent versions of Firefox and Chrome

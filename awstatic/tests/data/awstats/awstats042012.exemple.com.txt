@@ -1,0 +1,866 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201204 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.exemple.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2663                
+POS_VISITOR 16809               
+POS_DAY 26068               
+POS_DOMAIN 3464                
+POS_LOGIN 3942                
+POS_ROBOT 4097                
+POS_WORMS 4969                
+POS_EMAILSENDER 5100                
+POS_EMAILRECEIVER 5243                
+POS_SESSION 26849               
+POS_SIDER 27052               
+POS_FILETYPES 5378                
+POS_DOWNLOADS 5520                
+POS_OS 5617                
+POS_BROWSER 5756                
+POS_SCREENSIZE 6292                
+POS_UNKNOWNREFERER 6366                
+POS_UNKNOWNREFERERBROWSER 6453                
+POS_ORIGIN 6535                
+POS_SEREFERRALS 6675                
+POS_PAGEREFS 6871                
+POS_SEARCHWORDS 7199                
+POS_KEYWORDS 8749                
+POS_MISC 2327                
+POS_ERRORS 9576                
+POS_CLUSTER 3798                
+POS_SIDER_404 9665                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120501003458 121 28278 5325957494018
+FirstTime 0
+LastTime 20120430221102
+LastUpdate 20120501004001 1 0 0 0 0
+TotalVisits 145                 
+TotalUnique 128                 
+MonthHostsKnown 148                 
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 23 1191615 10 24 18641
+1 15 35 1177173 15 36 30190
+2 3 3 9390 13 31 29313
+3 2 5 983945 26 62 1937002
+4 2 2 5757 170 197 507903
+5 4 8 245992 14 41 499729
+6 3 7 236336 14 49 908075
+7 19 62 4007935 33 93 124713
+8 8 49 4256326 37 66 234510
+9 11 69 4359864 19 53 718013
+10 26 99 5890251 15 52 42209
+11 4 24 2153441 8 34 545258
+12 14 56 2533078 58 83 292443
+13 50 197 9985270 10 64 58573
+14 25 64 2134658 12 47 13307
+15 32 99 4646446 13 75 63756
+16 18 63 3892836 55 83 24775
+17 21 53 1950670 6 34 1092221
+18 9 33 3755722 13 44 320904
+19 15 70 6437167 8 28 8688
+20 17 72 7457708 13 42 62308
+21 7 38 3237430 31 53 178461
+22 11 37 1678135 16 43 45664
+23 3 8 389542 18 41 1399832
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+net 110 447 26986635
+fr 86 332 23709103
+com 39 67 1421937
+ip 35 123 5474998
+de 16 46 1934352
+be 10 58 3338873
+ch 9 48 4745553
+org 8 8 22306
+ca 4 21 2996503
+mc 2 4 43764
+tw 1 3 192572
+ma 0 1 274944
+it 1 10 402026
+hu 1 3 44079
+nl 0 1 977715
+iad1 1 1 4167
+hr 1 3 47160
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+unknown 240 6624 20120430213120 240
+bot[\s_+:,\.\;\/\\-] 167 66799 20120429155137 63
+googlebot 106 3902438 20120430162824 26
+crawl 100 464690 20120426074808 5
+yandex 92 121252 20120430180457 23
+[\s_+:,\.\;\/\\-]bot 89 218211 20120430130642 43
+msnbot\-media 60 4200947 20120430055824 20
+baiduspider 34 22580 20120427093026 20
+turnitinbot 17 67369 20120414230311 1
+discovery 9 9393 20120427040819 3
+no_user_agent 1 25 20120429044026 1
+exabot 8 2352 20120427231305 4
+spider 5 9390 20120424163627 0
+msnbot 1 0 20120428185508 0
+robot 8 408 20120428062533 8
+python 2 5757 20120407100407 0
+favicon 1 1540 20120422140727 0
+speedy 2 5826 20120417200059 1
+mj12bot 7 19885 20120412101023 3
+sogou 1 0 20120429044037 0
+netcraft 2 3130 20120402102147 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+css 123 150640 0 0
+php 56 125926 0 0
+html 268 848648 0 0
+jpg 729 71491473 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 461 0 14463
+/sitemap.xml.gz 4 0 4340
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 287
+winme 1
+linuxandroid 25
+winxp 277
+winlong 173
+win2003 11
+linuxubuntu 3
+linux 13
+win7 386
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 31
+msie6.0 21
+safari5.0.3 3
+firefox3.6.24 3
+chrome18.0.1025.162 128
+android 25
+chrome12.0.742.91 8
+firefox3.0 1
+firefox7.0.1 4
+msie5.5 1
+opera9.51 1
+chrome18.0.1025.165 23
+opera9.80 47
+safari5.0.2 5
+msie8.0 49
+chrome18.0.1025.142 72
+mozilla 6
+firefox2.0.0.9 2
+msie7.0 40
+safari5.1.2 16
+safari5.1.5 49
+firefox5.0.1 8
+firefox3.6.28 23
+safari5.1 131
+firefox3.6.22 8
+msie9.0 81
+firefox10.0.2 22
+chrome18.0.1025.151 31
+firefox11.0 235
+chrome18.0.1025.152 82
+safari5.1.1 11
+chrome5.0.375.55 40
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 47 50
+From1 1 1
+From2 100 179
+From3 7 7
+From4 169 939
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 98 176
+search 1 1
+google_image 0 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://pypi.python.org/pypi/soho/0.7 3 3
+http://code.noherring.com/soho/ 1 1
+http://noherring.com 1 1
+http://www.sfr.fr/recherche/ 1 1
+http://www.searchmobileonline.com/search 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 58
+zagreb 10
+dre%c5%benica 2
+paris+trieste+train 2
+voyage+cres 1
+dubrovnik+mostar 1
+bus+paris+trieste 1
+se+baigner+a+trogir+croatie 1
+bosnie 1
+traverser+bosnie+herzegovine 1
+combi+bosnie 1
+lac+de+jarun 1
+un+van 1
+photo+de+zagreb 1
+trogir+sibenik+en+croatie 1
+de+la+croatie+%c3%a0+mostar 1
+femmes+dubrovnik 1
+bosnie+herz%c3%a9govine 1
+recit+voyage+bosnie+herzegovine 1
+voyage+bosnie+croatie 1
+dreznica 1
+plage+bosnie 1
+dubrovnik 1
+passage+entre+les+frontiere+croatie+bosnie+herzegovine 1
+auto+int%c3%a9rieur+d%c3%a9cor%c3%a9e 1
+bus+zadar+sibenik 1
+train+ou+bus+mostar+dubrovnick 1
+bus+trieste+croatie 1
+dubrovenik+bosnie+sans+voiture 1
+paris+trieste+en+train 1
+trieste+croatie 1
+mec+%c3%a0+la+plage 1
+voyages+en+car+pour+sarajevo 1
+beignets+bosniaques 1
+bus+banja+luka+jajce 1
+trajet+train+paris+trisete 1
+trajet+dubrovnik+mostar 1
+carte+iles+croatie 1
+carte+ile+de+cres 1
+la+bosnie+et+la+croatie+en+sejour 1
+croatie+ile+de+cres 1
+croatie+tourisme 1
+sarajevo+bascarsija 1
+notre+voyage+en+bosnie 1
+bus+de+dubrovnik+trebinje 1
+van+sur+la+plage 1
+traversee+de+la+croatie+a+pied 1
+beignet+bosnie 1
+fra+stipo+jajce 1
+zagreb+to+jajce+bus 1
+ou+s+arr%c3%aater+en+bosnie 1
+sibenik+zadar+bus 1
+travers%c3%a9e+de+la+bosnie+herz%c3%a9govine 1
+travers%c3%a9e+de+la+bosnie 1
+trieste+budapest+train 1
+eau+chaude+croatie 1
+camping+sarajevo 1
+mostar+visiter 1
+distance+entre+mostar+en+bosnie+et+dubrovnik+en+croatie 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 84
+bosnie 16
+croatie 14
+zagreb 12
+de 9
+bus 8
+en 8
+la 8
+trieste 7
+dubrovnik 6
+train 6
+fra 1
+distance 1
+luka 1
+photo 1
+tourisme 1
+passage 1
+beignet 1
+herz%c3%a9govine 2
+sibenik 3
+mec 1
+trebinje 1
+eau 1
+trogir 2
+dreznica 1
+voyages 1
+arr%c3%aater 1
+dubrovnick 1
+traversee 1
+jarun 1
+voiture 1
+lac 1
+chaude 1
+to 1
+combi 1
+dre%c5%benica 2
+dubrovenik 1
+pour 1
+visiter 1
+entre 2
+%c3%a0 2
+jajce 3
+se 1
+notre 1
+carte 2
+les 1
+bosniaques 1
+a 2
+recit 1
+trajet 2
+budapest 1
+frontiere 1
+stipo 1
+femmes 1
+cres 3
+paris 5
+mostar 6
+et 2
+sur 1
+plage 3
+s 1
+trisete 1
+herzegovine 3
+baigner 1
+travers%c3%a9e 2
+banja 1
+bascarsija 1
+un 1
+sarajevo 3
+d%c3%a9cor%c3%a9e 1
+iles 1
+traverser 1
+pied 1
+beignets 1
+sejour 1
+voyage 4
+zadar 2
+int%c3%a9rieur 1
+ou 2
+car 1
+sans 1
+camping 1
+auto 1
+van 2
+ile 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 194 27872
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 191
+/_admin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc2/index.php 1 -
+//phpMyAdmin-2.5.5-pl1/index.php 1 -
+//web/phpMyAdmin/index.php 1 -
+/wbsadmin/html/scripts/setup.php 1 -
+/mysqladminconfig/scripts/setup.php 1 -
+/phpmya/scripts/setup.php 1 -
+/tools/_phpmyadmin/scripts/setup.php 1 -
+/phpmanager/scripts/setup.php 1 -
+/php-myadmin/scripts/setup.php 1 -
+/phpmyadmin2/scripts/setup.php 1 -
+/cpadmin/scripts/setup.php 1 -
+//myadmin/index.php 1 -
+/phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+/admin/cp/tools/pma/scripts/setup.php 1 -
+/~/admin/scripts/setup.php 1 -
+/gui/tools/pma/scripts/setup.php 1 -
+/phpMyAdmin-2.5.4/scripts/setup.php 1 -
+/_myadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.1/index.php 1 -
+/phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/my/scripts/setup.php 1 -
+/php-my-admin/scripts/setup.php 1 -
+/~/phpmyadmin/scripts/setup.php 1 -
+/phpmyadmin1/scripts/setup.php 1 -
+//phpMyAdmin/index.php 2 -
+/tools/pma/scripts/setup.php 1 -
+/phpMyAdmin2/scripts/setup.php 1 -
+//web/index.php 1 -
+/vhcs2/tools/pma/scripts/setup.php 1 -
+/pmy/scripts/setup.php 1 -
+//admin/pma/index.php 1 -
+/phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+//index.php 1 -
+/phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+/phpMyAdmin-2.11.4/scripts/setup.php 1 -
+//pma/index.php 1 -
+/phpadmin/scripts/setup.php 1 -
+//phpadmin/index.php 1 -
+/phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5/index.php 1 -
+//xampp/phpmyadmin/index.php 1 -
+/phpMyAdmin-2.8.1/scripts/setup.php 1 -
+/tools/_pma/scripts/setup.php 1 -
+/~/phpadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+/mysql-admin/scripts/setup.php 1 -
+/roundcube/scripts/setup.php 1 -
+/phpMyAdmin/scripts/setup.php 1 -
+/sl2/data/scripts/setup.php 1 -
+/cpadmindb/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+/SSLMySQLAdmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-rc1/scripts/setup.php 1 -
+//my//scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-rc1config/scripts/setup.php 1 -
+/mysql/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/databaseadmin/scripts/setup.php 1 -
+/_scripts/setup.php 1 -
+/cpanelsql/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+//mysqladmin/index.php 1 -
+/phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/~/myadmin/scripts/setup.php 1 -
+//phpmyadmin1/index.php 1 -
+/websql/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+/cpanelmysql/scripts/setup.php 1 -
+/bbs/data/scripts/setup.php 1 -
+/admin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+//myadmin//scripts/setup.php 1 -
+//phpmyadmin/index.php 2 -
+/published/wbsadmin/html/scripts/setup.php 1 -
+/phpMyAdmin-2.5.6/scripts/setup.php 1 -
+/_admin/pma/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+//php//scripts/setup.php 1 -
+//phpmyadmin2/index.php 1 -
+/phpMyAdmin-2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc1/index.php 1 -
+//typo3/phpmyadmin/index.php 1 -
+/~/PMA/scripts/setup.php 1 -
+/test/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2/index.php 1 -
+/phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+/web/scripts/setup.php 1 -
+//admin/phpmyadmin/index.php 1 -
+/phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+/administrator/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//admin/index.php 1 -
+//mysql/index.php 1 -
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+/SQL/scripts/setup.php 1 -
+/admin/phpmyadmin/scripts/setup.php 1 -
+/sqlweb/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/pMA/scripts/setup.php 1 -
+/admin/pma/scripts/setup.php 1 -
+/3rdparty/phpMyAdmin/scripts/setup.php 1 -
+/phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/sqlmanager/scripts/setup.php 1 -
+//sql//scripts/setup.php 1 -
+/phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/cpanelphpmyadmin/scripts/setup.php 1 -
+/phpmyadmin_old/scripts/setup.php 1 -
+/phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+/pma2005/scripts/setup.php 1 -
+/webadmin/scripts/setup.php 1 -
+/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+/PMA2005/scripts/setup.php 1 -
+/phpmy-admin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6/index.php 1 -
+/phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc1/index.php 1 -
+/phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+/bazapma/scripts/setup.php 1 -
+/phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7/index.php 1 -
+/phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/PMA/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+/phpadmin/phpMyAdmin-2.11.4/scripts/setup.php 1 -
+/webdb/scripts/setup.php 1 -
+/xampp/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.7-pl1/index.php 1 -
+/MyAdmin9/scripts/setup.php 1 -
+/mysqladmin/scripts/setup.php 1 -
+//dbadmin/index.php 1 -
+/phpMyAdmin-2.6.3/scripts/setup.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+/dbadmin/scripts/setup.php 1 -
+/~/phpmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+//php-my-admin/index.php 2 -
+//myphp//scripts/setup.php 1 -
+/phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/phpmyadmin/scripts/setup.php 1 -
+/typo3/phpmyadmin/scripts/setup.php 1 -
+/admm/scripts/setup.php 1 -
+/muieblackcat 1 -
+/PHPMYADMIN/scripts/setup.php 1 -
+//phpMyAdmin-2.5.4/index.php 1 -
+/Admin/scripts/setup.php 1 -
+/web/phpMyAdmin/scripts/setup.php 1 -
+/noexist_49905bea33dcc596.html 1 -
+/phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/phpMyAdmin-2.2.3/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/index.php 1 -
+/p/m/a/scripts/setup.php 1 -
+/phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/sqladmin/scripts/setup.php 1 -
+/phpMyAdmin-2.2.6/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+/cpdbadmin/scripts/setup.php 1 -
+/cpphpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc2/index.php 1 -
+/my/phpmyadmin/scripts/setup.php 1 -
+/phpmyadmino-ld/scripts/setup.php 1 -
+/pma/scripts/setup.php 1 -
+//phpMyAdmin-2.2.6/index.php 1 -
+/cp/tools/pma/scripts/setup.php 1 -
+//websql/index.php 1 -
+/admn/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/db/scripts/setup.php 1 -
+//db/index.php 1 -
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/mysqlmanager/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 163
+amontsouris-652-1-95-175.w92-163.abo.wanadoo.fr 15 51 2156021 20120419132317
+90.84.144.70 15 35 1177173 20120424015608
+pas72-1-88-161-60-11.fbx.proxad.net 14 54 2004661 20120415123438
+87-231-132-31.rev.numericable.fr 13 40 1690124 20120424155729
+sa213-1-88-183-140-206.fbx.proxad.net 13 38 1855701 20120427074151
+ip-88-153-51-20.unitymediagroup.de 12 29 1082122 20120427173405
+apoitiers-258-1-78-126.w90-45.abo.wanadoo.fr 10 34 1532932 20120405135156
+iad1-wtp-gd-maya4.sdi.trendnet.org 8 8 22306 20120411023723
+85.26.94.63 8 29 1368049 20120413132039
+smtp02.twenga.com 7 7 20904 20120430194637
+195.235.76.16 1 4 120867 20120416130455
+bas1-granby88-2925393110.dsl.bell.ca 0 1 977715 
+69.58.178.56 3 3 9987 20120411165329
+ip51cfe55d.direct-adsl.nl 0 1 977715 
+ycar8.mobile.bf1.yahoo.com 0 1 79598 
+94.143.81.59.not.updated.openip-cs.net 0 3 159540 
+178.138.35.138 2 4 49158 20120413145455
+ec2-174-129-124-63.compute-1.amazonaws.com 1 1 3130 20120415124750
+ldijon-156-64-42-112.w82-127.abo.wanadoo.fr 1 8 623481 20120426153854
+static-208-80-194-32.as13448.com 1 1 3130 20120401082859
+arennes-352-1-51-76.w81-53.abo.wanadoo.fr 5 16 643159 20120416192433
+lns-bzn-49f-62-147-174-70.adsl.proxad.net 2 5 49158 20120410173219
+ip-201.net-89-2-122.rev.numericable.fr 0 1 977715 
+84.20-240-81.adsl-dyn.isp.belgacom.be 2 9 394294 20120408145038
+80.82.234.52 1 20 772131 20120410070638
+atoulon-651-1-168-96.w86-211.abo.wanadoo.fr 1 4 345805 20120424182024
+cust-60-197-108-94.dyn.as47377.net 2 12 654661 20120423210251
+212-198-234-194.rev.numericable.fr 0 1 248390 
+109.175.68.197 1 4 239167 20120416191423
+modemcable220.107-161-184.mc.videotron.ca 2 12 654661 20120420144557
+fa-in-f23.1e100.net 1 1 3833 20120427173442
+31-220.62-81.cust.bluewin.ch 5 19 928779 20120412204133
+xdsl-188-155-160-211.adslplus.ch 0 1 350010 
+200-189.195-178.cust.bluewin.ch 2 12 654661 20120420134826
+g231032212.adsl.alicedsl.de 1 8 614389 20120402153618
+unknown6.189.204.74.defenderhosting.com 2 2 3080 20120430122738
+220.196.75.86.rev.sfr.net 2 4 49214 20120424220949
+msnbot-207-46-199-31.search.msn.com 1 2 3115 20120411031113
+amontpellier-651-1-18-137.w90-42.abo.wanadoo.fr 0 1 977715 
+arennes-653-1-11-27.w92-139.abo.wanadoo.fr 1 8 626251 20120403122248
+184.14.198.77.rev.sfr.net 1 11 650416 20120420225120
+msnbot-207-46-199-24.search.msn.com 1 2 3115 20120402032526
+206.195.123.78.rev.sfr.net 0 1 350010 
+1.60.84.79.rev.sfr.net 4 8 148162 20120421134110
+adsl-95-104.teol.net 1 3 44913 20120408190658
+lns-bzn-58-82-251-210-128.adsl.proxad.net 1 3 47160 20120429151207
+89.red-80-28-243.adsl.static.ccgg.telefonica.net 3 7 386731 20120426131939
+reverse.completel.net 2 13 1542645 20120430101228
+55.159.97.84.rev.sfr.net 1 3 66055 20120409201300
+42.37.66.86.rev.sfr.net 2 4 43764 20120419103107
+arennes-752-1-19-124.w90-32.abo.wanadoo.fr 2 4 49214 20120410194918
+78.223.37.27 1 3 192572 20120414050431
+amarseille-552-1-48-247.w92-137.abo.wanadoo.fr 1 3 192572 20120413171047
+static.204.111.9.176.clients.your-server.de 1 1 3130 20120429154243
+136.58.69.86.rev.sfr.net 2 12 466989 20120410101605
+areims-552-1-184-96.w90-7.abo.wanadoo.fr 0 1 977715 
+ip-213-49-251-58.dsl.scarlet.be 2 12 654661 20120423122821
+abayonne-552-1-174-56.w109-214.abo.wanadoo.fr 0 1 977715 
+31.176.191.196 2 9 562067 20120414205600
+adijon-553-1-29-87.w92-161.abo.wanadoo.fr 2 8 234711 20120429114536
+d54c61141.access.telenet.be 1 3 192572 20120406063035
+amontsouris-551-1-108-78.w86-212.abo.wanadoo.fr 1 11 650416 20120410193701
+221.32.127.78.rev.sfr.net 1 4 1170287 20120403165309
+217.167.232.237 1 3 0 20120405094712
+14.8-65-87.adsl-dyn.isp.belgacom.be 2 12 654661 20120410131318
+msnbot-157-55-112-233.search.msn.com 1 2 5337 20120405131745
+static-208-80-194-68.as13448.com 1 1 3130 20120422212836
+109.106-14-84.ripe.coltfrance.com 2 4 46936 20120420160542
+anice-652-1-216-85.w86-197.abo.wanadoo.fr 1 4 1170287 20120401204145
+90.84.146.252 0 1 205888 
+aannecy-152-1-27-22.w83-197.abo.wanadoo.fr 1 11 650416 20120424194057
+modemcable182.95-200-24.mc.videotron.ca 1 4 345805 20120404235910
+sph44-1-88-184-245-132.fbx.proxad.net 0 1 275643 
+static-208-80-194-27.as13448.com 1 1 3130 20120426141013
+static-208-80-194-33.as13448.com 1 1 3130 20120417055814
+vib38-2-78-226-236-70.fbx.proxad.net 0 1 78192 
+bsn-182-147-164.dial-up.dsl.siol.net 2 15 561160 20120419094537
+122-70.192-178.cust.bluewin.ch 0 2 977715 
+apoitiers-155-1-20-241.w83-200.abo.wanadoo.fr 3 13 471234 20120421200144
+94.143.81.60.not.updated.openip-cs.net 1 7 242486 20120417213329
+proxy.monaco-telecom.mc 2 4 43764 20120412153006
+89-92-36-32.hfc.dyn.abo.bbox.fr 0 1 248390 
+car75-8-88-166-204-36.fbx.proxad.net 1 7 351307 20120430080112
+che44-1-88-163-87-112.fbx.proxad.net 2 9 390822 20120401093056
+static-208-80-194-30.as13448.com 6 6 18780 20120428023443
+macdebugger.com 5 23 1191615 20120427003315
+mic92-10-82-238-133-95.fbx.proxad.net 0 1 977715 
+amontpellier-651-1-71-33.w83-205.abo.wanadoo.fr 1 11 650416 20120427092303
+212-198-50-188.rev.numericable.fr 2 4 194159 20120424144750
+pas75-1-81-57-53-56.fbx.proxad.net 1 4 1170287 20120416210652
+aclermont-ferrand-257-1-18-51.w90-42.abo.wanadoo.fr 3 10 273550 20120412144344
+msnbot-65-52-111-246.search.msn.com 1 2 3146 20120406153749
+211-103.194-178.cust.bluewin.ch 0 1 202012 
+wtp-g8-maya5.iad1 1 1 4167 20120403151747
+msnbot-65-52-111-31.search.msn.com 1 2 6553 20120419072739
+pda57-4-78-240-25-113.fbx.proxad.net 0 1 977715 
+abo-5-9-68.ech.modulonet.fr 1 3 192572 20120404151159
+la141-1-88-126-59-73.fbx.proxad.net 6 18 644760 20120430221102
+vai69-4-88-161-163-114.fbx.proxad.net 1 11 650416 20120421132729
+nor75-6-82-227-164-234.fbx.proxad.net 1 3 66055 20120402122710
+7.158.86.79.rev.sfr.net 3 26 1891746 20120409135351
+alyon-651-1-183-113.w80-9.abo.wanadoo.fr 0 3 778985 
+apoitiers-258-1-121-19.w90-50.abo.wanadoo.fr 2 4 43764 20120405103055
+81.13.130.36 0 1 248390 
+228-188.198-178.cust.bluewin.ch 2 12 654661 20120417085259
+142.157.206.91.static.webindustrie.fr 7 15 341011 20120403145219
+static-208-80-194-36.as13448.com 1 1 3130 20120413150921
+msnbot-207-46-199-11.search.msn.com 1 2 3094 20120414072727
+95.146.15.109.rev.sfr.net 1 7 351307 20120411084719
+ldijon-156-65-18-63.w80-15.abo.wanadoo.fr 1 2 5337 20120402141702
+lns-bzn-40-82-251-166-54.adsl.proxad.net 2 4 46936 20120426072122
+bas3-stlambert20-2925490638.dsl.bell.ca 0 1 977715 
+modemcable113.112-81-70.mc.videotron.ca 1 3 40607 20120415230400
+16.14.117.78.rev.sfr.net 2 12 654661 20120404195759
+tru67-2-88-180-61-100.fbx.proxad.net 1 3 44913 20120411194620
+msnbot-207-46-12-156.search.msn.com 1 2 5337 20120402133307
+atoulon-151-1-29-19.w83-197.abo.wanadoo.fr 1 3 47160 20120427113003
+aorleans-553-1-99-243.w90-63.abo.wanadoo.fr 2 12 466989 20120403134216
+hel59-5-88-182-108-191.fbx.proxad.net 2 12 654661 20120413163013
+124-12-52-2.dynamic.tfn.net.tw 1 3 192572 20120412172728
+82.245.6.195.static.adsl.abo.nordnet.fr 2 12 668846 20120404120159
+212.228.140.88.rev.sfr.net 4 8 87528 20120418064221
+astdenis-551-1-94-116.w80-8.abo.wanadoo.fr 0 1 259200 
+adijon-654-1-43-35.w90-26.abo.wanadoo.fr 0 1 216885 
+gprsc2b0e2ed.pool.t-umts.hu 1 3 44079 20120429105139
+129.104.91.79.rev.sfr.net 1 3 40607 20120428092832
+125.41.100.87.rev.sfr.net 3 11 433809 20120420103621
+adsl196-198-154-217-196.adsl196-13.iam.net.ma 0 1 274944 
+195.147-128-109.adsl-dyn.isp.belgacom.be 0 1 248390 
+adsl-ull-52-203.49-151.net24.it 1 10 402026 20120405111910
+62-160-12-163.62-160.francetelecom.oleane.net 1 8 518297 20120418123226
+xdsl-89-0-63-157.netcologne.de 2 8 234711 20120413174530
+194.51.74.222 0 1 248390 
+arennes-258-1-227-226.w81-53.abo.wanadoo.fr 1 5 84365 20120405201715
+67.60.84.77.rev.sfr.net 5 16 608512 20120420162910
+static-208-80-194-34.as13448.com 1 1 3130 20120430020357
+83-131-80-57.adsl.net.t-com.hr 1 3 47160 20120425055253
+rai93-3-82-240-14-141.fbx.proxad.net 2 4 46936 20120427185444
+160.156.84.77.rev.sfr.net 0 1 301726 
+2.218-227-89.dsl.completel.net 0 5 350010 
+crj95-3-82-237-151-169.fbx.proxad.net 6 23 1349622 20120428155634
+aaubervilliers-652-1-80-90.w83-114.abo.wanadoo.fr 2 6 90147 20120410124727
+155.49.12.93.rev.sfr.net 0 1 248390 
+19.253.204.77.rev.sfr.net 5 19 966589 20120408181810
+ip-83-134-8-94.dsl.scarlet.be 1 11 650416 20120417160248
+lputeaux-156-15-31-61.w82-127.abo.wanadoo.fr 0 1 126360 
+ip-135.net-80-236-91.joinville.rev.numericable.fr 1 4 1170287 20120408203434
+50-57-104-33.static.cloud-ips.com 1 1 3130 20120425235941
+ku834-1-78-226-147-226.fbx.proxad.net 0 1 360554 
+77-57-178-159.dclient.hispeed.ch 0 1 977715 
+sk.s5.bns1.ns99.searchreinvented.com 1 1 3157 20120404121510
+d54c611b4.access.telenet.be 1 3 192572 20120426172201
+195.235.76.18 0 5 225187 
+195.235.76.17 0 1 55972 
+pro75-2-82-226-77-198.fbx.proxad.net 2 4 194159 20120410204255
+22.190-67-87.adsl-dyn.isp.belgacom.be 1 7 351307 20120425200359
+mon75-15-88-166-12-192.fbx.proxad.net 1 8 518872 20120427213244
+amontsouris-554-1-48-74.w82-123.abo.wanadoo.fr 1 3 66055 20120411165728
+68.18.8.109.rev.sfr.net 1 4 1170287 20120420182427
+alyon-156-1-71-186.w86-216.abo.wanadoo.fr 1 7 2242947 20120410081845
+89-92-11-32.hfc.dyn.abo.bbox.fr 1 4 345805 20120430074542
+197.156.88.91.rev.sfr.net 1 3 66055 20120418152734
+static-208-80-194-35.as13448.com 1 1 3130 20120403165446
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20120401 4 16 2790344 3
+20120402 5 18 995959 5
+20120403 20 50 3686918 7
+20120404 7 32 1865041 6
+20120405 17 65 2627452 7
+20120406 2 6 454918 2
+20120407 1 2 278074 1
+20120408 10 38 2998110 5
+20120409 5 31 2207731 4
+20120410 15 83 6395927 9
+20120411 8 23 2235207 6
+20120412 11 37 1687055 4
+20120413 16 58 2852291 6
+20120414 4 16 963691 3
+20120415 16 58 2048398 4
+20120416 8 34 2454639 4
+20120417 7 41 4069981 5
+20120418 5 23 991256 4
+20120419 21 73 2770628 5
+20120420 16 71 4219282 7
+20120421 8 33 1518202 3
+20120422 1 2 980845 1
+20120423 4 25 2287037 2
+20120424 35 101 5336126 7
+20120425 5 13 407354 4
+20120426 8 23 1252850 6
+20120427 36 118 5672298 8
+20120428 8 27 1393359 3
+20120429 9 22 2646537 7
+20120430 12 37 2529177 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 11
+0s-30s 114
+30s-2mn 11
+2mn-5mn 6
+15mn-30mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/ 47 109000 46 37
+/recit/09-dubrovnik-trsteno.html 32 105229 11 18
+/recit/08-dreznica-mostar-dubrovnik.html 29 111157 13 9
+/recit/02-trieste-zagreb.html 29 147126 21 14
+/recit/03-zagreb-banja-luka.html 22 98024 7 13
+/recit/10-trsteno-brela-split-trogir.html 17 46903 7 7
+/recit/04-banja-luka-jajce-travnik-sarajevo.html 17 92837 10 7
+/recit/11-trogir-marina-sibenik-zadar.html 16 34368 6 6
+/recit/07-sarajevo-konjic-dreznica.html 13 38441 5 1
+/recit/05-sarajevo.html 13 26299 3 7
+/recit/20-trieste-mestre-paris.html 2 2264 0 0
+/recit/15-cres.html 6 7744 0 2
+/recit/01-paris-trieste.html 10 17000 9 4
+/recit/06-sarajevo.html 7 8876 0 1
+/recit/17-cres.html 7 12392 0 2
+/recit/ 9 16926 1 3
+/recit/19-cres-rijeka-trieste.html 6 11433 1 1
+/recit/16-cres.html 5 8348 2 0
+/recit/18-cres.html 6 13629 0 1
+/recit/13-rijeka-cres.html 10 24350 2 5
+/a-propos.html 3 7881 0 3
+/recit/14-cres.html 6 9699 0 0
+/recit/12-zadar-rijeka.html 12 24648 1 4
+END_SIDER
