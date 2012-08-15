@@ -5,7 +5,7 @@ from setuptools import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.rst')).read()
-CHANGES = open(os.path.join(here, 'docs', 'CHANGES.rst')).read()
+CHANGES = open(os.path.join(here, 'CHANGES.rst')).read()
 DESCRIPTION = 'AWStatic is a front-end for AWStats.'
 
 REQUIRES = ()
