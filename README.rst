@@ -47,18 +47,11 @@ Screenshots
 Installation
 ============
 
-As usual, installing in a virtual environment is highly recommended.
-Then you may install with ``easy_install`` or ``pip``:
+As usual, installing in a virtual environment is highly recommended:
 
 .. code-block:: bash
 
-   $ easy_install awstatic
-
-or:
-
-.. code-block:: bash
-
-   $ pip install awstatic
+   $ easy_install https://github.com/dbaty/AWStatic/tarball/master
 
 
 How to use AWStatic
